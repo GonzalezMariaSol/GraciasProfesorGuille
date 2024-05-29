@@ -74,21 +74,6 @@ const Home = () => {
       </Grid>
       <Grid item xs={12} sm={6} md={4} lg={3}>
         <Button
-          onClick={() => navigate("/alumna/Jime")}
-          sx={{
-            ...buttonStyle,
-            backgroundColor: "yellow",
-            "&:hover": {
-              backgroundColor: "green",
-              transform: "scale(1.1)",
-            },
-          }}
-        >
-          <p>Jime</p>
-        </Button>
-      </Grid>
-      <Grid item xs={12} sm={6} md={4} lg={3}>
-        <Button
           onClick={() => navigate("/alumna/Sol")}
           sx={{
             ...buttonStyle,
@@ -100,6 +85,21 @@ const Home = () => {
           }}
         >
           <p>Sol</p>
+        </Button>
+      </Grid>
+      <Grid item xs={12} sm={6} md={4} lg={3}>
+        <Button
+          onClick={() => navigate("/alumna/Jime")}
+          sx={{
+            ...buttonStyle,
+            backgroundColor: "yellow",
+            "&:hover": {
+              backgroundColor: "green",
+              transform: "scale(1.1)",
+            },
+          }}
+        >
+          <p>Jime</p>
         </Button>
       </Grid>
       <Grid item xs={12} sm={6} md={4} lg={3}>
