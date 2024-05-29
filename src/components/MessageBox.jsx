@@ -2,7 +2,7 @@ import { Box, Typography, Button } from "@mui/material";
 import { Computer } from "@mui/icons-material";
 import { useNavigate } from "react-router-dom";
 import { useParams } from "react-router-dom";
-import { AngellyMsje, RoMsje, IreMsje, JimeMsje, SolMsje, BettyMsje, CocoMsje } from "./";
+import { AngellyMsje, RoMsje, IreMsje, JimeMsje, SolMsje, BettyMsje, CocoMsje, MacaMsje } from "./";
 
 const MessageBox = () => {
   const navigate = useNavigate();
