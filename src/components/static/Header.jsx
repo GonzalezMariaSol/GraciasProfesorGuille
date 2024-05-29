@@ -9,7 +9,7 @@ const Header = () => {
       justifyContent: "center", 
       alignItems: "center",
   }}>
-      <Typography variant="h4">La 19va tiene algo que decirte...</Typography>
+      <Typography style={{fontSize:"2vw"}}>La 19va tiene algo que decirte...</Typography>
   </Box>
   );
 };

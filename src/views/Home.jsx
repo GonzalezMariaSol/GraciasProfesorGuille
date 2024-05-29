@@ -2,11 +2,11 @@ import { Grid, Button } from "@mui/material";
 import { useNavigate } from "react-router-dom";
 
 const buttonStyle = {
-  fontSize: "1.5vw",
+  fontSize: "3vw", 
   borderRadius: "10px",
   color: "black",
-  width: "12vw",
-  height: "12vw",
+  width: "70%", 
+  minHeight: "30%", 
   marginBottom: "3vw",
   transition: "transform 0.2s",
 };
@@ -21,11 +21,13 @@ const Home = () => {
       sx={{
         backgroundColor: "black",
         padding: "5vw",
-        margin: "0",
-        width: "auto",
+        marginTop: "0",
+        display: "flex",
+        flexWrap: "wrap",
+        justifyContent: "center",
       }}
     >
-      <Grid item xs={3}>
+      <Grid item xs={12} sm={6} md={4} lg={3}>
         <Button
           onClick={() => navigate("/alumna/Angelly")}
           sx={{
@@ -40,7 +42,7 @@ const Home = () => {
           <p>Angelly</p>
         </Button>
       </Grid>
-      <Grid item xs={3}>
+      <Grid item xs={12} sm={6} md={4} lg={3}>
         <Button
           onClick={() => navigate("/alumna/Coco")}
           sx={{
@@ -55,7 +57,7 @@ const Home = () => {
           <p>Coco</p>
         </Button>
       </Grid>
-      <Grid item xs={3}>
+      <Grid item xs={12} sm={6} md={4} lg={3}>
         <Button
           onClick={() => navigate("/alumna/Ire")}
           sx={{
@@ -70,7 +72,7 @@ const Home = () => {
           <p>Ire</p>
         </Button>
       </Grid>
-      <Grid item xs={3}>
+      <Grid item xs={12} sm={6} md={4} lg={3}>
         <Button
           onClick={() => navigate("/alumna/Jime")}
           sx={{
@@ -85,7 +87,7 @@ const Home = () => {
           <p>Jime</p>
         </Button>
       </Grid>
-      <Grid item xs={3}>
+      <Grid item xs={12} sm={6} md={4} lg={3}>
         <Button
           onClick={() => navigate("/alumna/Sol")}
           sx={{
@@ -100,7 +102,7 @@ const Home = () => {
           <p>Sol</p>
         </Button>
       </Grid>
-      <Grid item xs={3}>
+      <Grid item xs={12} sm={6} md={4} lg={3}>
         <Button
           onClick={() => navigate("/alumna/Taty")}
           sx={{
@@ -115,7 +117,7 @@ const Home = () => {
           <p>Taty</p>
         </Button>
       </Grid>
-      <Grid item xs={3}>
+      <Grid item xs={12} sm={6} md={4} lg={3}>
         <Button
           onClick={() => navigate("/alumna/Betty")}
           sx={{
@@ -130,7 +132,7 @@ const Home = () => {
           <p>Betty</p>
         </Button>
       </Grid>
-      <Grid item xs={3}>
+      <Grid item xs={12} sm={6} md={4} lg={3}>
         <Button
           onClick={() => navigate("/alumna/Maca")}
           sx={{
@@ -145,7 +147,7 @@ const Home = () => {
           <p>Maca</p>
         </Button>
       </Grid>
-      <Grid item xs={3}>
+      <Grid item xs={12} sm={6} md={4} lg={3}>
         <Button
           onClick={() => navigate("/AngellyDice")}
           sx={{
