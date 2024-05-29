@@ -1,8 +1,25 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# App Profesor Guille
 
-Currently, two official plugins are available:
+App creada para poder agradecer a nuestro profesor Guille de la institucion Ada ITW y que cada egresADA pueda dejar si asi lo desea un mensaje al profesor.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+
+
+## Redes del profesor
+para poder seguir molestandolo con preguntas un sabado a las 3am
+ - [Github](https://github.com/AngelGuillermoMontania)
+ - [Discord - guille2209]()
+
+ 
+
+
+
+## Screenshots
+
+![App Screenshot](public\memes.jpg)
+![App Screenshot](public\memes(0).jpeg)
+![App Screenshot](public\memes(1).jpg)
+![App Screenshot](public\memes(2).jpg)
+![App Screenshot](public\memes(3).jpg)
+
