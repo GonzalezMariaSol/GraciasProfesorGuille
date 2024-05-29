@@ -17,9 +17,9 @@ para poder seguir molestandolo con preguntas un sabado a las 3am
 
 ## Screenshots
 
-![App Screenshot](public\memes.jpg)
-![App Screenshot](public\memes(0).jpeg)
-![App Screenshot](public\memes(1).jpg)
-![App Screenshot](public\memes(2).jpg)
-![App Screenshot](public\memes(3).jpg)
+![the-simpsons-meme](public/memes.jpg)
+![friends-meme](public/memes(0).jpeg)
+![baby-yoda-meme](public/memes(1).jpg)
+![developer-meme](public/memes(2).jpg)
+![developer-meme](public/memes(3).jpg)
 
