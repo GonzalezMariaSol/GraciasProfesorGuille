@@ -134,7 +134,7 @@ const Home = () => {
       </Grid>
       <Grid item xs={12} sm={6} md={4} lg={3}>
         <Button
-          onClick={() => navigate("/AngellyDice")}
+          onClick={() => navigate("/alumna/Coco")}
           sx={{
             ...buttonStyle,
             backgroundColor: "saddlebrown",
@@ -144,7 +144,7 @@ const Home = () => {
             },
           }}
         >
-          <p>----</p>
+          <p>Coco</p>
         </Button>
       </Grid>
     </Grid>
