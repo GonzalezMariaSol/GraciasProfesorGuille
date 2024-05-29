@@ -2,7 +2,7 @@ import { Box, Typography, Button } from "@mui/material";
 import { Computer } from "@mui/icons-material";
 import { useNavigate } from "react-router-dom";
 import { useParams } from "react-router-dom";
-import { AngellyMsje, CocoMsje, IreMsje, JimeMsje, SolMsje, TatyMsje, BettyMsje } from "./";
+import { AngellyMsje, RoMsje, IreMsje, JimeMsje, SolMsje, TatyMsje, BettyMsje } from "./";
 
 const MessageBox = () => {
   const navigate = useNavigate();
@@ -12,8 +12,8 @@ const MessageBox = () => {
   const renderMessageComponent = () => {
     if (nombre === "Angelly") {
       return <AngellyMsje />;
-    } else if (nombre === "Coco") {
-      return <CocoMsje />;
+    } else if (nombre === "Ro") {
+      return <RoMsje />;
     } else if (nombre === "Ire") {
       return <IreMsje />;
     } else if (nombre === "Jime") {
