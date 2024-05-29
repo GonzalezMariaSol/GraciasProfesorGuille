@@ -104,21 +104,6 @@ const Home = () => {
       </Grid>
       <Grid item xs={12} sm={6} md={4} lg={3}>
         <Button
-          onClick={() => navigate("/alumna/Taty")}
-          sx={{
-            ...buttonStyle,
-            backgroundColor: "orange",
-            "&:hover": {
-              backgroundColor: "yellow",
-              transform: "scale(1.1)",
-            },
-          }}
-        >
-          <p>Taty</p>
-        </Button>
-      </Grid>
-      <Grid item xs={12} sm={6} md={4} lg={3}>
-        <Button
           onClick={() => navigate("/alumna/Betty")}
           sx={{
             ...buttonStyle,
