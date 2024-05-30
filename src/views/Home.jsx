@@ -126,7 +126,7 @@ const Home = () => {
             ...buttonStyle,
             backgroundColor: "orange",
             "&:hover": {
-              backgroundColor: "brown",
+              backgroundColor: "#25c141",
               transform: "scale(1.1)",
             },
           }}
