@@ -7,5 +7,7 @@ import SolMsje from "./SolMsje";
 import BettyMsje from "./BettyMsje"
 import MacaMsje from "./MacaMsje"
 import CocoMsje from "./CocoMsje";
+import TamaraMsje from "./TamaraMsje";
 
-export {MessageBox, AngellyMsje, RoMsje, IreMsje, JimeMsje, SolMsje, MacaMsje, BettyMsje, CocoMsje}
+
+export {MessageBox, AngellyMsje, RoMsje, IreMsje, JimeMsje, SolMsje, MacaMsje, BettyMsje, CocoMsje, TamaraMsje}

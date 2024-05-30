@@ -121,6 +121,21 @@ const Home = () => {
       </Grid>
       <Grid item xs={12} sm={6} md={4} lg={3}>
         <Button
+          onClick={() => navigate("/alumna/Tamara")}
+          sx={{
+            ...buttonStyle,
+            backgroundColor: "orange",
+            "&:hover": {
+              backgroundColor: "brown",
+              transform: "scale(1.1)",
+            },
+          }}
+        >
+          <p>Tamara</p>
+        </Button>
+      </Grid>
+      <Grid item xs={12} sm={6} md={4} lg={3}>
+        <Button
           onClick={() => navigate("/alumna/Jime")}
           sx={{
             ...buttonStyle,
