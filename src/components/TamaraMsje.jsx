@@ -9,7 +9,7 @@ const TamaraMsje = () => {
         color: "black",
       }}
     >
-
+        Gracias guille x ser haberme enseñado este tiempo aprendí mucho con vos   sos un genio y tenés una calidez  humana hermosa lejos sos el mejor
     </Typography>
   );
 };
