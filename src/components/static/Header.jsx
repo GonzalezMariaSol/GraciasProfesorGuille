@@ -8,8 +8,9 @@ const Header = () => {
       display: "flex",
       justifyContent: "center", 
       alignItems: "center",
+      
   }}>
-      <Typography style={{fontSize:"2vw"}}>La 19va tiene algo que decirte...</Typography>
+      <Typography sx={{fontSize:"3vw"}}>La 19va tiene algo que decirte...</Typography>
   </Box>
   );
 };

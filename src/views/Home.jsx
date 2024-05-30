@@ -2,11 +2,11 @@ import { Grid, Button } from "@mui/material";
 import { useNavigate } from "react-router-dom";
 
 const buttonStyle = {
-  fontSize: "3vw", 
+  fontSize: "3vw",
   borderRadius: "10px",
   color: "black",
-  width: "70%", 
-  minHeight: "30%", 
+  width: "70%",
+  minHeight: "30%",
   marginBottom: "3vw",
   transition: "transform 0.2s",
 };
@@ -25,6 +25,8 @@ const Home = () => {
         display: "flex",
         flexWrap: "wrap",
         justifyContent: "center",
+        alignItems: "center",
+        height: "100vh",
       }}
     >
       <Grid item xs={12} sm={6} md={4} lg={3}>
