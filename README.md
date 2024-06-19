@@ -9,7 +9,8 @@ App creada para poder agradecer a nuestro profesor Guille de la institucion Ada 
 ## Redes del profesor
 para poder seguir molestandolo con preguntas un sabado a las 3am
  - [Github](https://github.com/AngelGuillermoMontania)
- - [Discord - guille2209]()
+ - [Discord](https://discord.com/users/958503795426492447)
+ - [LinkedIn](https://www.linkedin.com/in/angel-guillermo-montania/)
 
  
 
